@@ -4,6 +4,8 @@
 Project URL:
 https://roadmap.sh/projects/image-grid
 
+https://roadmap.sh/projects/simple-tabs
+
 ## Overview
 这是一个练习项目……
 
