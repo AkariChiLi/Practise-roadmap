@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>标签页</title>
+    <style>
+        .tab {
+            width: 700px;
+            margin: 100px auto;
+            padding: 20px;
+            border: 2px solid black;
+            border-radius: 15px;
+        }
+
+        .tab-choose {
+            display: flex;
+           gap: 15px;
+            margin-bottom: 20px;
+            color: #bbb;
+        }
+
+        .tab-choose-item {
+            padding-bottom: 5px;
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+        }
+
+        .tab p{
+            font-size: 20px;
+        }
+
+        .main{
+            background-color: black;
+            margin: 10px auto;
+            padding: 30px;
+            width: 400px;
+            height: 100px;
+            border: 2px solid black;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .main p{
+            color: white;
+        }
+    </style>
+
+</head>
+<body>
+
+        
+    <div class="tab">
+        <div class="tab-choose">
+            <div class="tab-choose-item">First Tab</div>
+            <div class="tab-choose-item">Second Tab</div>
+            <div class="tab-choose-item">Third Tab</div>
+            <div class="tab-choose-item">Fourth Tab</div>
+        </div>
+
+        <p>
+            Click each tab should hide the content of other tab and show the content of clicked tab.By default, the first tab.
+        </p>
+
+        <div class="main">
+            <p>First Tab Content to be displayed here.</p>
+        </div>
+
+        <p>Add some dummy content or just add a simple text showing the tab</p>
+    </div>
+
+     <script src="/Project/practise/标签页.js"></script>
+</body>
+</html>
