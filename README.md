@@ -6,6 +6,8 @@ https://roadmap.sh/projects/image-grid
 
 https://roadmap.sh/projects/simple-tabs
 
+https://roadmap.sh/projects/cookie-consent
+
 ## Overview
 这是一个练习项目……
 
