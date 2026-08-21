@@ -19,3 +19,28 @@ tabs.forEach(function(tab, index){
         main.style.fontSize = '20px';
     })
 });
+
+const closeButton = document.querySelector('.cookies-close');
+const cookiesbutton = document.querySelector('.cookies-button');
+const cookies = document.querySelector('.cookies');
+
+closeButton.addEventListener('click', function(){
+    cookies.style.display = 'none';
+});
+
+cookiesbutton.addEventListener('click', function(){
+    cookies.style.display = 'none';
+});
+    
+const accepted = localStorage.getItem("cookieAccepted");
+if (accepted === "true") {
+    cookies.style.display = 'none';
+}
+else {
+    cookies.style.display = 'block';
+}
+
+cookiesbutton.addEventListener('click', function(){
+    localStorage.setItem("cookieAccepted", "true");
+    cookies.style.display = "none";
+});

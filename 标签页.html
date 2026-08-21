@@ -46,6 +46,54 @@
         .main p{
             color: white;
         }
+
+        .cookies{
+            width: 200px;
+            padding: 20px;
+            border: 2px solid black;
+            border-radius: 15px;
+            background-color: black;
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            z-index: 1000;
+        }
+
+        .cookies-head{
+            width: 95%;
+            margin-bottom: 50px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .cookies-img{
+            width: 70px;
+            height: 70px;
+        }
+
+        .cookies-close{
+            width: 10px;
+            height: 15px;
+            color: white;
+            background-color: black;
+            border:none;
+        }
+
+        .cookies-text{
+            font-size: 20px;
+            color: white;
+        }
+
+        .cookies-button{
+            width: 90%;
+            font-size: 20px;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
     </style>
 
 </head>
@@ -71,6 +119,28 @@
         <p>Add some dummy content or just add a simple text showing the tab</p>
     </div>
 
+
+     <div class="cookies">
+    
+     <div class="cookies-head">
+
+         <img class="cookies-img" src="/Project/practise/cookies.png" alt="Cookies">
+         <button class="cookies-close">X</button>
+
+     </div>
+    
+     <p class="cookies-text">We use cookies to improve your user experience. </p>
+
+     <div class="cookies-button">
+
+        <p>I like cookies</p>
+     </div>
+
+    </div>
+
      <script src="/Project/practise/标签页.js"></script>
+
 </body>
+
+
 </html>
