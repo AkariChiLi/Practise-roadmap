@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>风琴</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .main {
+            width: 700px;
+            height: 100%;
+            padding: 100px;
+            margin: auto;
+            overflow-wrap: anywhere;
+            border: 2px solid black;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .title1 {
+            font-size: 15px;
+            margin-bottom: 10px;
+        }
+
+        .title2 {
+            font-size: 10px;
+            margin-bottom: 10px;
+        }
+
+        .text {
+            font-size: 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .question {
+            padding: 10px;
+            font-size: 15px;
+            border: 2px solid black;
+            border-radius: 10px;
+            color: white;
+            background-color: black;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .answer {
+            padding: 10px;
+            font-size: 15px;
+            border: 2px solid black;
+            border-radius: 10px;
+            max-height: 0;
+            overflow: hidden;
+            opacity: 0;
+            transition: max-height 0.3s ease, opacity 0.3s ease;
+        }
+
+        .answer.show { 
+         max-height: 200px;
+         opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="title1">
+            <h1>Frequently Asked Questions</h1>
+        </div>
+
+        <div class="title2">
+            <h2>Here are some of the frequently asked questions</h2>
+        </div>
+
+        <div class="text">
+
+            <div class="question">
+                <p>Question 1</p>
+                <P>v</P>
+            </div>
+
+            <div class="answer">
+                <p>Answer 1</p>
+            </div>
+
+             <div class="question">
+                <p>Question 2</p>
+                <P>v</P>
+            </div>
+
+            <div class="answer">
+                <p>Answer 2</p>
+            </div>
+
+             <div class="question">
+                <p>Question 3</p>
+                <p>v</p>
+            </div>
+
+            <div class="answer">
+                <p>Answer 3 This is a long text.111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</p>
+            </div>
+
+             <div class="question">
+                <p>Question 4</p>
+                <p>v</p>
+            </div>
+
+            <div class="answer">
+                <p>Answer 4</p>
+            </div>
+
+             <div class="question">
+                <p>Question 5</p>
+                <p>v</p>
+            </div>
+
+            <div class="answer">
+                <p>Answer 5</p>
+            </div>
+
+             <div class="question">
+                <p>Question 6 This is a long question.111111111111222222222222222222222222222222222222222222222222222222222222222222222</p>
+                <p>v</p>
+            </div>
+
+            <div class="answer">
+                <p>Answer 6 This is a long text.111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</p>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    <script src="风琴.js"></script>
+</body>
+</html>
