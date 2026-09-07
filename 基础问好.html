@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>基础问好</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header{
+            font-size: 24px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        input{
+            padding: 10px;
+            margin: 10px;
+            font-size: 16px;
+        }
+
+        button{
+            padding: 10px;
+            margin: 10px;
+            font-size: 16px;
+        }
+
+        .result{
+            width: 50%;
+            height: 200px;
+            padding: 20px;
+            margin-top: 20px;
+            border: 2px solid black;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .message{
+            width: 70%;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="title">Enter your name</div>
+    </header>
+    <main>
+    <input type="text" class="firstname" placeholder="First Name">
+    <input type="text" class="lastname" placeholder="Last Name">
+    <input type="text" class="timeofday" placeholder="Time of Day">
+
+    <button class="submit">submit</button>
+
+     <div class="result">
+        <div class="message"></div>
+    </div>
+
+    </main>
+    
+
+    <script src="基础问好.js"></script>
+
+
+</body>
+</html>
