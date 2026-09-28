@@ -17,6 +17,8 @@ https://roadmap.sh/projects/js-greeting-builder
 https://roadmap.sh/projects/js-temperature-converter
 
 https://roadmap.sh/projects/js-number-checker
+
+https://roadmap.sh/projects/js-string-formatter
 ## Overview
 这是一个练习项目……
 
