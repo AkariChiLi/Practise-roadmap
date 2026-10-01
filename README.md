@@ -23,6 +23,8 @@ https://roadmap.sh/projects/js-string-formatter
 https://roadmap.sh/projects/js-price-calculator
 
 https://roadmap.sh/projects/js-cart-total-calculator
+
+https://roadmap.sh/projects/js-grade-report-generator
 ## Overview
 这是一个练习项目……
 
